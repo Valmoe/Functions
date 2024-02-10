@@ -16,5 +16,6 @@ while input_number != "exit":
     input_number = input("Enter a number: ")
     print(type(input_number.split()))
     print(input_number.split())
-    for entered_number_element in input_number.split():
+    print(set(input_number.split()))
+    for entered_number_element in set(input_number.split()):
         validate_entry()
